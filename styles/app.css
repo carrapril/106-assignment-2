@@ -1,0 +1,77 @@
+
+header{
+    background-color:rgb(238, 238, 235) ;
+    padding-bottom: 20px;
+}
+h1{color:navy;
+    text-align:center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+div {
+    overflow: hidden;
+    background-color: rgb(238, 238, 235);
+}
+#tasks-list{
+    color:navy;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    padding:20px;
+    font-size: 17px;
+}
+#searchIcon{
+    position: relative;
+    left:200px; 
+
+}
+
+main{
+    display: flex;
+    background-color: rgb(105, 105, 121);
+    
+}
+
+#list{
+    flex: 3;
+}
+#form{
+    flex: 2;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(70, 70, 68);
+}
+#savbtn{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:navy;
+}
+#iconImportant{
+    font-size: 20px;
+    color:navy;
+    cursor: pointer;
+}
+#iconImportant.fas{
+    color: red;
+}
+
+.task{
+    display: flex;
+    
+}
+.task > div {
+    margin: 10px;
+    padding: 30px;
+    font-size: 15px;
+}
